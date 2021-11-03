@@ -2,6 +2,9 @@
 #include<stdio.h>
 #include"NumClass.h"
 int isarmstrongrec(int a,int length){
+if(a<0){
+return 0;
+}
     int currsize=(int)log10(a)+1;
     if(currsize==1){
         return pow(a,length);
@@ -24,6 +27,9 @@ int ispalirec(char A[],int i,int j){
 
 }
 int isPalindrome(int a){
+i	if(a<0){
+	return 0;
+}
    int divider=log10(a); 
    int length=divider+1;
    char A[length];

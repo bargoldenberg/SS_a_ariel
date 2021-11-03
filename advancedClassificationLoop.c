@@ -1,6 +1,9 @@
 #include<math.h>
 #include"NumClass.h"
 int isArmstrong(int a){
+if(a<0){
+return 0;
+}
 int original=a;
 int ans=0;
 int digits = (int)log10((double)a);
@@ -13,6 +16,9 @@ return(original==ans);
 
 }
 int isPalindrome(int a){
+if(a<0){
+return 0;
+}
     int length=(int)(log10(a))+1;
     int A [length] ;
     int j=length-1;
