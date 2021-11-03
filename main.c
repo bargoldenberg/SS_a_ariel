@@ -26,14 +26,14 @@ printf("\n");
     printf("The Prime numbers are:");
 for(int i =a;i<=b;i++){
     if(isPrime(i)){
-        printf(" %d ",i);
+        printf(" %d",i);
     }
 }
 printf("\n");
     printf("The Strong numbers are:");
 for(int i =a;i<=b;i++){
     if(isStrong(i)){
-        printf(" %d ",i);
+        printf(" %d",i);
     }
 }
 printf("\n");
