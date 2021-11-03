@@ -5,6 +5,11 @@ int a;
 int b;
 scanf("%d",&a);
 scanf("%d",&b);
+if(a<1){
+    a=1;
+}else if(b<1){
+    b=1;
+}
 printf("The Armstrong Numbers are: ");
 for(int i =a;i<=b;i++){
     if(isArmstrong(i)){

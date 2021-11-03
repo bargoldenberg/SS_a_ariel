@@ -27,11 +27,10 @@ int ispalirec(char A[],int i,int j){
 
 }
 int isPalindrome(int a){
-i	if(a<0){
+if(a<0){
 	return 0;
 }
-   int divider=log10(a); 
-   int length=divider+1;
+   int length=(int)log10((double)a)+1; 
    char A[length];
    sprintf(A,"%d",a);
    int n = sizeof(A) / sizeof(char);
