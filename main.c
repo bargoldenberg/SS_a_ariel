@@ -10,28 +10,28 @@ if(a<1){
 }else if(b<1){
     b=1;
 }
-printf("The Armstrong Numbers are: ");
+printf("The Armstrong numbers are: ");
 for(int i =a;i<=b;i++){
     if(isArmstrong(i)){
         printf("%d ",i);
     }
 }
 printf("\n");
-    printf("The Palindroms are: ");
+    printf("The Palindromes are: ");
 for(int i =a;i<=b;i++){
     if(isPalindrome(i)){
         printf("%d ",i);
     }
 }
 printf("\n");
-    printf("The Prime Numbers are: ");
+    printf("The Prime numbers are: ");
 for(int i =a;i<=b;i++){
     if(isPrime(i)){
         printf("%d ",i);
     }
 }
 printf("\n");
-    printf("The Strong Numbers are: ");
+    printf("The Strong numbers are: ");
 for(int i =a;i<=b;i++){
     if(isStrong(i)){
         printf("%d ",i);
