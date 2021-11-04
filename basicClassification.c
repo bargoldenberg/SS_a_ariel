@@ -4,8 +4,8 @@ int isPrime(int a){
 if(a<0){
 return 0;
 }
-int ans =1;
-for(int i =2;i<a;i++){
+int ans=1;
+for(int i=2;i<=sqrt(a);i++){
     if(a%i==0){
         ans=0;
     }
