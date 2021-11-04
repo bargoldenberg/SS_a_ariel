@@ -4,6 +4,11 @@ int main(){
 int a;
 int b;
 scanf("%d%d",&a,&b);
+if(b<a){
+    int tmp = a;
+    a=b;
+    b=tmp;
+}
 if(a<1){
     a=1;
 }else if(b<1){
